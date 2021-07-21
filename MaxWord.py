@@ -8,8 +8,7 @@ flM=flM.subtractByKey(flS)
 def comp(x,y):
 	if x[1]<y[1]:
 		return y
-	else:
-		return x
+	return x
 
 maxOcc=flM.reduce(comp)
 print maxOcc
